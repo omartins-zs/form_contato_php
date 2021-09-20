@@ -7,11 +7,10 @@
 </head>
 <body>
 	<section class="section">
-		<div class="container">
+		<div class="container" >
 			<div class="columns is-centered">
 				<div class="column is-half">
-					<h1 class="title has-text-centered">Formulário de Contato - Canal TI</h1>
-
+					<h1 class="title has-text-centered">Formulário de Contato</h1>
 					<form action="enviar.php" method="POST">
 						<div class="field">
 							<label class="label">Nome</label>
@@ -26,7 +25,6 @@
 								<input name="email" class="input" type="email" placeholder="Seu email">
 							</div>
 						</div>
-
 						<div class="field">
 							<label class="label">Assunto</label>
 							<div class="control">
@@ -39,7 +37,6 @@
 								</div>
 							</div>
 						</div>
-
 						<div class="field">
 							<label class="label">Mensagem *</label>
 							<div class="control">

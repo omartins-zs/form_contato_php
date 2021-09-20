@@ -22,12 +22,12 @@ if((isset($_POST['email']) && !empty(trim($_POST['email']))) && (isset($_POST['m
 	$mail->isSMTP();
 	$mail->Host = 'smtp.gmail.com';
 	$mail->SMTPAuth = true;
-	$mail->Username = 'seuemail@gmail.com';
-	$mail->Password = 'senhadoemail';
+	$mail->Username = 'seuemail@gmail.com'; /* Seu Email */
+	$mail->Password = 'senhadoemail'; /* Senha do Email */
 	$mail->Port = 587;
 
-	$mail->setFrom('seuemail@gmail.com');
-	$mail->addAddress('endereco1@provedor.com.br');
+	$mail->setFrom('seuemail@gmail.com');  /* Seu Email */
+	$mail->addAddress('endereco1@provedor.com.br');  /* Seu Email */
 
 	$mail->isHTML(true);
 	$mail->Subject = $assunto;
